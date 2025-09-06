@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TEESAVVY</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons (for wishlist/user/menu) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top header -->
+  <header class="topbar">
+    <button class="menu-toggle" aria-label="Open Menu">
+      <i class="bi bi-list"></i>
+    </button>
+
+    <a href="#" class="brand">
+      <!-- Put your real logo image below -->
+      <img src="teesavvy-logo-ss.jpg" alt="TEESAVVY logo">
+    </a>
+
+    <form class="searchbar" role="search" onsubmit="return false;">
+      <input type="search" placeholder="Find your best search" aria-label="Search products">
+      <button class="btn-search" type="submit">search</button>
+    </form>
+
+    <div class="actions">
+      <a href="#" class="action-link"><i class="bi bi-heart"></i><span>wishlist</span></a>
+      <a href="#" class="action-link"><i class="bi bi-person"></i><span>sign up</span></a>
+    </div>
+  </header>
+
+  <!-- Secondary nav -->
+  <nav class="mainnav">
+    <ul class="navlist">
+      <li><a class="active" href="#">HOME</a></li>
+      <li><a href="#">MEN</a></li>
+      <li><a href="#">WOMEN</a></li>
+      <li><a href="#">KIDS</a></li>
+      <li><a href="#">NEW ARRIVALS</a></li>
+    </ul>
+  </nav>
+
+  <!-- Demo content (replace with your sections) -->
+  <main>
+    <section class="hero">
+      <!-- <img class="banner" src="/teesavvy-img/banner-demo1.jpg" alt="banner"> -->
+      <h1>Fresh Drops. Daily.</h1>
+      <p>Explore men, women, and kids collections with custom designs.</p>
+      <a class="cta" href="#">Shop Now</a>
+    </section>
+
+    <section class="placeholder">
+      <h2>Featured Categories</h2>
+      <div class="grid">
+        <div class="card">MEN</div>
+        <div class="card">WOMEN</div>
+        <div class="card">KIDS</div>
+        <div class="card">CUSTOM</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 TEESAVVY. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
